@@ -1,0 +1,99 @@
+/* Popup autorization*/
+.popup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(1, 5, 17, 0.925);
+    background-position: center;
+    opacity: 0;
+
+
+    z-index: 999;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    min-width: 0;
+    align-items: center;
+    display: flex;
+
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*transform: perspective(600px) translate(0px, 0%), rotateX(0deg);*/
+.popup:target .popup_content{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.popup_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    transition: all 0.8s ease 0s;
+    min-width: 0;
+
+}
+
+/*transform: perspective(600px) translate(0px,-100%), rotateX(45deg);*/
+.popup_content {
+    position: relative;
+    padding: 30px;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+    min-width: 0;
+}
+
+.popup_close {
+    position: absolute;
+    right: 30px;
+    top: 10px;;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 32px;
+    color: #dddddb;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+.popup_close img {
+    height: 28px; 
+    margin-top: 8px;
+}
+
+/* Одно из изображений прячем */
+.popup_content .cancel_hide {
+    display: none;
+}
+
+/* При наведении показываем выделенное изображение */
+.popup_content:hover .cancel_hide {
+    display: inline;
+}
+
+/* При наведении старое изображение прячем */
+.popup_content:hover .cancel_hide {
+    display: none;
+}
+
+.popup.open {
+    opacity: 0.9;
+    visibility: visible;
+}

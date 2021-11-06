@@ -1,0 +1,43 @@
+/* ABOUT ME START / НАЧАЛО БЛОКА "ОБО МНЕ" */
+.about_me_inner {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.photo img {
+	width: auto;
+	height: 400px;
+	object-fit: cover;
+	filter: drop-shadow(0 0px 70px #ca75ff49);
+	transition: 0.5s;
+}
+
+.photo img:hover {
+	-webkit-transform: translateX(-7px);
+	transform: translateX(-7px), translateY(-7px);
+  }
+
+.about_me_text {
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+.about_me_text div {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: calc(12px + 6 * (100vw / 1280));
+	/*font-size: 18px;*/
+	vertical-align: center;
+	color: #ccd7ff;
+	line-height: 26px;
+}
+
+.about_me_text div span {
+	color: #708FFF;
+	font-weight: 700;
+}
+/* ABOUT ME END / КОНЕЦ БЛОКА "ОБО МНЕ" */

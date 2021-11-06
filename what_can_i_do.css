@@ -1,0 +1,94 @@
+.what_can_i_do_inner {
+	margin-top: 20px;
+}
+
+.what_can_i_do_point {
+    display: flex;
+}
+
+.what_can_i_do_point img {
+    height: 130px;
+	vertical-align: middle;
+}
+
+.what_can_i_do_point_text {
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	margin: auto;
+}
+
+.what_can_i_do_point_text h3 {
+	color: #708FFF;
+	font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+	font-size: calc(6px + 14 * (100vw / 1280));
+	/*font-size: 20px;*/
+}
+
+.what_can_i_do_point_text p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: calc(12px + 6 * (100vw / 1280));
+	/*font-size: 18px;*/
+
+	vertical-align: middle;
+	color: #ccd7ff;
+	margin: auto;
+	line-height: 26px;
+	margin-top: 10px;
+}
+
+.backdrop {
+	display: inline-flex;
+	padding: 0 50px;
+	background-color: #6673a15e;
+	margin-top: 40px;
+	object-fit: cover;
+	border-radius: 30px;
+
+}
+
+.backdrop h3 {
+	margin: auto;
+	padding: 20px 0;
+	color: #ccd7ff;
+	font-size: calc(12px + 6 * (100vw / 1280));
+	/*font-size: 18px;*/
+	font-weight: 700;
+}
+
+.circle {
+	margin: auto;
+	margin-right: 30px;
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+	background: #1A0023;
+	border-radius: 50%;
+	object-fit: cover;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.circle img {
+	margin: auto;
+	height: 30px;
+}
+
+@media (max-width: 1920px) {
+	.what_can_i_do_point_text_help {
+		margin-right: 150px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.circle {
+		width: 90px; 
+	}
+}

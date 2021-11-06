@@ -1,0 +1,127 @@
+/* HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ */
+.header {
+	padding: 10px 0;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #010511;
+	border-bottom: 1px solid transparent;
+	border-image: linear-gradient(to right, #010511 , #CB75FF , #010511);
+	border-image-slice: 1;
+	z-index: 5;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_logo { 
+	margin-right: 50px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: calc(12px + 6 * (100vw / 1280));
+	/*font-size: 18px;*/
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #CB75FF;
+	transition: color 0.2s linear;
+}
+
+.header_logo:hover {
+	color: #708FFF;
+	transition: color 0.2s linear;
+}
+
+.header_logo div { 
+	margin-left: 60px;
+}
+
+.header_logo img { 
+	height: 40px;
+    position: absolute;
+}
+
+.header_logo img.one {
+	opacity: 0;
+}
+
+.header_logo:hover img.one {
+	opacity: 1;
+}
+
+.header_logo:hover img.two, .header_logo img.two:hover {
+	opacity: 0;
+}
+
+.header_logo img {
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+/* Nav menu / Навигационное меню */
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.nav a {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+    white-space: nowrap;
+	padding: 0 10px;
+	margin: 10px;
+
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 600;
+	font-size: calc(12px + 6 * (100vw / 1280));
+	/*font-size: 18px;*/
+	letter-spacing: 1px;
+	cursor: pointer;
+
+	align-items: center;
+	text-align: center;
+
+	color: #ccd7ff;
+	transition: color 0.2s linear;
+}
+
+.nav a:hover {
+	color: #708FFF;
+}
+
+.nav a:before, .nav a:after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: auto;
+	right: 50%;
+	bottom: -5px;
+	left: 50%;
+	background: #708FFF;
+	transition: .8s;
+}
+
+.nav a:hover:before {
+	left: 0;
+}
+
+.nav a:hover:after {
+	right: 0;
+}
+/* HEADER END / КОНЕЦ НАВИГАЦИОННОГО МЕНЮ */
