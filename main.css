@@ -48,7 +48,6 @@ p {
 
 .block {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
 	text-align: left;
@@ -95,6 +94,15 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 767px) {
 	.container {
 		max-width: 0;
+	}
+
+	.about_me_text div  {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.title {
+		font-size: 64px;
 	}
 }
 
