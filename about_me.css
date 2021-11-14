@@ -11,6 +11,8 @@
 	object-fit: cover;
 	filter: drop-shadow(0 0px 70px #ca75ff49);
 	transition: 0.5s;
+	display: flex;
+	align-items: center;
 }
 
 .photo img:hover {

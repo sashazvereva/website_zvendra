@@ -1,7 +1,7 @@
 /* HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ */
 .header {
 	padding: 10px 0;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -89,7 +89,7 @@
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 600;
-	font-size: calc(12px + 6 * (100vw / 1280));
+	font-size: calc(12px + 4 * (100vw / 1280));
 	/*font-size: 18px;*/
 	letter-spacing: 1px;
 	cursor: pointer;

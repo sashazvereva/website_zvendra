@@ -72,20 +72,52 @@ jQuery(document).ready(function ($) {
  }); 
 
 
+/* Вurger menu */
+const isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i);
+    },
 
+    BlackBerry: function () {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
 
+    IOS: function () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
 
+    Opera: function () {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    
+    Windows: function () {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
 
- $(function(){
-        // #2 вариант (события всплывают)        
-        $(".image_first")
-        .mouseover(function() {
-            alert('блин');
+    any: function () {
+        return (
+        isMobile.Android() ||
+        isMobile.BlackBerry() ||
+        isMobile.IOS() ||
+        isMobile.Opera() ||
+        isMobile.Windows());
+    }
+};
 
-                 // навели курсор на объект     
-        })
-        .mouseout(function(){           
-                // отвели курсор с объекта
-        });
-  
-});
+if (isMobile.any()) {
+    document.body.classList.add('_touch');
+
+    let menuArrows = document.querySelectorAll('.menu_arrow');
+
+    if (menuArrows.length > 0) {
+        for (let index = 0; index < menuArrows.length; index++) {
+            const menuArrow = menuArrows[index];
+            menuArrow.addEventListener("click", function (e) {
+                menuArrow.parentElement.classList.toggle('_active');
+            });
+        }
+    }
+
+    } else {
+    document.body.classList.add ('_pc');
+}

@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<meta charset="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css" >
-	<link rel="stylesheet" type="text/css" href="header.css">
+	<!--<link rel="stylesheet" type="text/css" href="header.css">-->
+	<link rel="stylesheet" type="text/css" href="header2.css">
 	<link rel="stylesheet" type="text/css" href="button.css">
 	<link rel="stylesheet" type="text/css" href="intro.css">
 	<link rel="stylesheet" type="text/css" href="about_me.css">
@@ -13,7 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="achievements.css">
 	<link rel="stylesheet" type="text/css" href="popup.css">
 	<link rel="stylesheet" type="text/css" href="slider.css">
-	<link rel="stylesheet" type="text/css" href="footer.css"> 
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="adaptive.css"> 
+
 
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -30,6 +33,7 @@
 
 <body>
 <!-- HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ -->
+<!--
 <header class="header">
 	<div class="container">
 		<div class="header_inner">
@@ -38,7 +42,6 @@
 				<img class="two" src="photo/icons/moon.png">
 				<img class="one" src="photo/icons/moon2.png">
 				<div>zvendra</div>
-				
 			</a>
 
 			<nav class="nav">
@@ -54,6 +57,63 @@
 		</div>
 	</div>
 </header>
+-->
+<!-- HEADER END / КОНЕЦ НАВИГАЦИОННОГО МЕНЮ -->
+
+
+<!-- HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ -->
+<div class="wrapper2">
+<header class="header">
+	<div class="header_container">
+
+			<a class="header_logo" href="index.html">
+				<img class="two" src="photo/icons/moon.png">
+				<img class="one" src="photo/icons/moon2.png">
+				<div>zvendra</div>
+			</a>
+			<div class="header_menu menu">
+				<div class="menu_icon">
+					<span></span>
+				</div>
+
+			<nav class="menu_body">
+				<ul class="menu_list">
+					<li>
+						<a class="menu_link" data-goto=".about_me">Обо мне</a>
+
+						<span class="menu_arrow"></span>
+
+						<ul class="menu_sub_list">
+							<li>
+								<a class="menu_sub_link" data-goto=".what_can_i_do">Что я могу сделать</a>
+							</li>
+
+							<li>
+								<a class="menu_sub_link" data-goto=".about_me">Стэк технологий</a>
+							</li>
+						</ul>
+					</li>	
+
+					<li>
+						<a class="menu_link" data-goto=".works">Работы</a>
+					</li>
+
+					<li>
+						<a class="menu_link" data-goto=".achievements">Достижения</a>
+					</li>
+
+					<li>
+						<a class="menu_link" data-goto=".footer">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+			<a class="bubbly-button js-anchor" href="Resume.pdf" target="_blank">  
+				Резюме
+			</a>
+	</div>
+</header>
+</div>
 <!-- HEADER END / КОНЕЦ НАВИГАЦИОННОГО МЕНЮ -->
 
 
