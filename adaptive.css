@@ -33,6 +33,7 @@
 		font-size: 64px;
 		white-space: nowrap;
 	}
+	
 	.photo img {
 		height: 500px;
 	}
@@ -46,6 +47,20 @@
 	.about_me_text {
 		margin-left: 50px;
 	}
+
+	.btn-shine {
+		font-size: 24px;
+	}
+
+	.what_can_i_do_point_text h3 {
+		font-size: 24px;
+	}
+
+	.what_can_i_do_point_text p {
+		font-size: 20px;
+
+	}
+
 
 }
 

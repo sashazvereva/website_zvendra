@@ -3,6 +3,9 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 25px;
+	vertical-align: middle;
+	align-items: center;
+
 }
 
 .photo img {
@@ -13,6 +16,7 @@
 	transition: 0.5s;
 	display: flex;
 	align-items: center;
+	vertical-align: middle;
 }
 
 .photo img:hover {
