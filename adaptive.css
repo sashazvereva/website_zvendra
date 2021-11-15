@@ -17,3 +17,44 @@
 */
 
 
+/* Adaptability / Адаптивность */
+@media (max-width: 1363px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+
+	.title {
+		font-size: 64px;
+		white-space: nowrap;
+	}
+	.photo img {
+		height: 500px;
+	}
+
+	.about_me_text div  {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+
+	.about_me_text {
+		margin-left: 50px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 0;
+	}
+
+	.about_me_inner {
+		flex-direction: column;
+	}
+}
