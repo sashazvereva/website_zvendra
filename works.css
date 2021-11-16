@@ -1,7 +1,7 @@
 .works_item {
     border-top: 2px solid #CB75FF;
     border-bottom: 2px solid #CB75FF;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
@@ -12,7 +12,6 @@
 .works_item:hover {
 	background-color: #02081a;
     transition: 0.2s;
-
 }
 
 .works_item_title {

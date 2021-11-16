@@ -1,6 +1,6 @@
 /* FOOTER START / НАЧАЛО ПОДВАЛА */
 .footer {
-	padding: 10px 0;
+	padding: 30px 0;
 }
 
 .footer_inner {
@@ -38,12 +38,10 @@
     flex-direction: row;
 	justify-content: flex-end;
     text-align: left;
-
 }
 
 .flex {
     display: inline-flex;
-
 }
 
 .flex nav {
@@ -54,6 +52,7 @@
 .footer_contacts_inner {
     display: inline-flex;
 	margin: 0 20px;
+	align-items: center;
 }
 
 .footer_contacts_inner img {
@@ -67,7 +66,6 @@
 	/*font-size: 18px;*/
 
 	color: #ccd7ff;
-	margin: auto;
     padding-left: 15px;
     text-decoration: none;
     text-align: left;

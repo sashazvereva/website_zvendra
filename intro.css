@@ -35,6 +35,20 @@
 .patterns {
 	position: absolute;
 	width: 100%;
+	opacity: 1;
+}
+
+.patterns_mobile1 {
+	position: absolute;
+	width: 100%;
+	margin-bottom: 200px;
+	opacity: 0;
+}
+
+.patterns_mobile2 {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
 }
   
 svg text {

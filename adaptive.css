@@ -33,7 +33,48 @@
 		font-size: 64px;
 		white-space: nowrap;
 	}
+
+	.subtitle {
+		font-size: 24px;
+	}
+
+	/* INTRO */
+	.intro {
+		height: 1000px;
+	}
+
+	.patterns {
+		opacity: 0;
+	}
+
+	.patterns_mobile1 {
+		opacity: 1;
+	}
 	
+	.patterns_mobile2 {
+		opacity: 1;
+	}
+
+	svg text {
+		font-size: 84px;
+
+	}
+
+	.btn-shine {
+		font-size: 24px;
+	}
+
+	.arrow_down {
+		height: 70px;
+	}
+
+	.loader {
+		--size: 200px;
+	}
+
+
+	/* ABOUT ME */
+
 	.photo img {
 		height: 500px;
 	}
@@ -43,33 +84,119 @@
 		line-height: 36px;
 	}
 
-
 	.about_me_text {
 		margin-left: 50px;
 	}
 
-	.btn-shine {
-		font-size: 24px;
-	}
 
+	/* WHAT CAN I DO */
 	.what_can_i_do_point_text h3 {
-		font-size: 24px;
+		font-size: 36px;
 	}
 
 	.what_can_i_do_point_text p {
-		font-size: 20px;
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.what_can_i_do_point img {
+		height: 225px;
+		vertical-align: middle;
+	}
+
+	.what_can_i_do_point_text_help {
+		margin-right: 0px;
+	}
+
+	.backdrop {
+		border-radius: 100px;
+	
+	}
+
+	.backdrop h3 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.circle img {
+		width: 70px;
+		height: 70px;
+	}
+
+	/* WORKS */
+	.works_item {
+		height: 200px;
+		flex-direction: column;
 
 	}
 
+	.works_item_title {
+		font-size: 36px;
+		text-align: center;
+		white-space: nowrap;
+	}
+
+	.works_item_description {
+		font-size: 24px;
+		line-height: 36px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	
+	.works_item a img {
+		position: absolute;
+		opacity: 0;
+	}
+
+	/* ACHIEVEMENTS */
+	.achievements_inner {
+		display: flex;
+		flex-direction: column;
+	}
+	.achievements_item img {
+		width: 400px;
+	}
+
+	.achievements_item p {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.achievements_item {
+		margin-bottom: 30px;
+	}
+
+	/* FOOTER */
+	.footer_logo , .footer_title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer_contacts_inner img {
+		height: 50px;
+	}
+
+	.footer_contacts_inner a {
+		font-size: 24px;
+		line-height: 36px;
+		padding-left: 25px;
+
+	}
+
+	.footer_contacts_inner {
+		margin: 5px 20px;
+	}
+	
 
 }
 
 @media (max-width: 767px) {
 	.container {
 		max-width: 0;
-	}
-
-	.about_me_inner {
-		flex-direction: column;
 	}
 }
