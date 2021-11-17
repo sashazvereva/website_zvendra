@@ -22,7 +22,7 @@
 .photo img:hover {
 	-webkit-transform: translateX(-7px);
 	transform: translateX(-7px), translateY(-7px);
-  }
+}
 
 .about_me_text {
 	margin-left: 100px;

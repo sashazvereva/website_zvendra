@@ -132,13 +132,10 @@
 	right: 0;
 	left: 0px;
 	padding: 15px;
-	min-width: 210px;
+	width: 210px;
 	background-color: #010511;
     list-style-type: none;
     border-radius: 30px;
-	/*
-	border-image: linear-gradient(to right, #010511 , #CB75FF , #010511);
-	*/
 	border: 1px solid #CB75FF;
 }
 
@@ -190,7 +187,9 @@ body._touch .menu_list > li {
 }
 
 body._touch .menu_link {
+	/*
 	flex: 1 1 auto;
+	*/
 }
 
 body._touch .menu_arrow {
@@ -215,7 +214,7 @@ body._touch .menu_list > li._active .menu_sub_list {
 body._touch .menu_list > li._active .menu_arrow {
 	transform: rotate(-180deg);
 }
-/*                        */
+/*                        
 
 
 @media (min-width: 767px) {
@@ -288,3 +287,5 @@ body._touch .menu_list > li._active .menu_arrow {
 	}
 
 }
+
+*/

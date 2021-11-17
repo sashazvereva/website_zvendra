@@ -9,6 +9,10 @@ body {
 	background-color: #010511;
 }
 
+body._lock {  
+	overflow: hidden;
+}
+
  *,
  *:before
  *:after {
