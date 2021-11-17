@@ -131,7 +131,7 @@ if (isMobile.any()) {
     document.body.classList.add ('_pc');
 }
 
-const iconMenu = document.querySelector('menu_icon');
+const iconMenu = document.querySelector('.menu_icon');
 const menuBody = document.querySelector('.menu_body');
 
 if (iconMenu) {
