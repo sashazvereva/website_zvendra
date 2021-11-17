@@ -342,9 +342,29 @@
 		position: relative;
 		flex: 1 1 100%;
 		margin-bottom: 50px;
-		width: 200px;
 	}
 
 }
+/*
+@media (min-width: 500px) {
+	.header_logo div { 
+		font-size: 36px;
+		padding-left: 25px;
+	}
 
+	.header_logo img { 
+		height: 60px;
+		position: absolute;
+	}
 
+	.menu_icon {
+		width: 60px;
+		height: 48px;
+	}
+
+	.header_container {
+		height: 100px;
+	}
+}
+
+*/
