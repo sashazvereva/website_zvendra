@@ -1,6 +1,9 @@
 /* FOOTER START / НАЧАЛО ПОДВАЛА */
 .footer {
 	padding: 30px 0;
+	border-top: 1px solid transparent;
+	border-image: linear-gradient(to right, #010511 , #CB75FF , #010511);
+	border-image-slice: 1;
 }
 
 .footer_inner {

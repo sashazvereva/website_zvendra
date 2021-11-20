@@ -4,12 +4,12 @@
 	<meta charset="utf-8">
 	<meta charset="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css" >
-	<!--<link rel="stylesheet" type="text/css" href="header.css">-->
-	<link rel="stylesheet" type="text/css" href="header2.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
 	<link rel="stylesheet" type="text/css" href="button.css">
 	<link rel="stylesheet" type="text/css" href="intro.css">
 	<link rel="stylesheet" type="text/css" href="about_me.css">
 	<link rel="stylesheet" type="text/css" href="what_can_i_do.css">
+	<link rel="stylesheet" type="text/css" href="technology_stack.css">
 	<link rel="stylesheet" type="text/css" href="works.css">
 	<link rel="stylesheet" type="text/css" href="achievements.css">
 	<link rel="stylesheet" type="text/css" href="popup.css">
@@ -32,34 +32,6 @@
 </head>
 
 <body>
-<!-- HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ -->
-<!--
-<header class="header">
-	<div class="container">
-		<div class="header_inner">
-
-			<a class="header_logo" href="index.html">
-				<img class="two" src="photo/icons/moon.png">
-				<img class="one" src="photo/icons/moon2.png">
-				<div>zvendra</div>
-			</a>
-
-			<nav class="nav">
-				<a data-goto=".about_me">Обо мне</a>
-				<a data-goto=".works">Работы</a>
-				<a data-goto=".achievements">Достижения</a>
-				<a data-goto=".footer">Контакты</a>
-			</nav>
-			
-			<a class="bubbly-button js-anchor" href="Resume.pdf" target="_blank">  
-				Резюме
-			</a>
-		</div>
-	</div>
-</header>
--->
-<!-- HEADER END / КОНЕЦ НАВИГАЦИОННОГО МЕНЮ -->
-
 
 <!-- HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ -->
 <div class="wrapper2">
@@ -87,7 +59,7 @@
 								<a class="menu_sub_link" data-goto=".what_can_i_do">Что я могу сделать</a>
 							</li>
 							<li>
-								<a class="menu_sub_link" data-goto=".about_me">Стэк технологий</a>
+								<a class="menu_sub_link" data-goto=".technology_stack">Стэк технологий</a>
 							</li>
 						</ul>
 					</li>	
@@ -205,7 +177,7 @@
 		<div class="what_can_i_do_inner">
 			<div class="what_can_i_do_point">
 				<img src="photo/icons/design.svg">
-				<div class="what_can_i_do_point_text what_can_i_do_point_text_help">
+				<div class="what_can_i_do_point_text">
 					<h3>
 						Качественный дизайн
 					</h3>
@@ -245,6 +217,39 @@
 <!--  WHAT CAN I DO END / КОНЕЦ БЛОКА "ЧТО Я МОГУ СДЕЛАТЬ" -->
 
 
+<!-- TECHNOLOGY STACK START / НАЧАЛО БЛОКА "СТЭК ТЕХНОЛОГИЙ" -->
+<div class="block technology_stack filter">
+	<div class="container">
+		<h1 class="title">
+			Стэк технологий
+		</h1>
+		<div class="technology_stack_item">
+			<div class="technology_stack_block">
+				<img src="photo/technology_stack.png" alt="">
+			</div>
+			<div>
+				<div class="technology_stack_text1">
+					<div>HTML/CSS/JS</div>
+				</div>
+				<div class="technology_stack_text2">
+					<div>Git</div>
+				</div>				
+				<div class="technology_stack_text3">
+					<div>JQuery</div>
+				</div>
+				<div class="technology_stack_text4">
+					<div>C++/C#</div>
+				</div>
+				<div class="technology_stack_text5">
+					<div>Figma</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- TECHNOLOGY STACK END / КОНЕЦ БЛОКА "СТЭК ТЕХНОЛОГИЙ" -->
+
+
 <!-- WORKS START / НАЧАЛО БЛОКА "РАБОТЫ" -->
 <div class="block works">
 	<div class="container">
@@ -276,12 +281,6 @@
 				<img src="photo/icons/right.png" >
 			</a>
 		</div>
-<!--
-		<ul class="push">
-			<li>Аэрокосмический хакатон</li>
-			<li>Ai-vacancy.ru</li>
-		</ul>
-		 -->
 	</div>
 </div>
 <!-- WORKS END / КОНЕЦ БЛОКА "РАБОТЫ" -->

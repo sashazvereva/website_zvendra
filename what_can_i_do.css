@@ -1,5 +1,5 @@
 .what_can_i_do_inner {
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .what_can_i_do_point {
@@ -75,16 +75,4 @@
 	margin: auto;
 	width: 50px;
 	height: 50px;
-}
-
-@media (max-width: 1920px) {
-	.what_can_i_do_point_text_help {
-		margin-right: 150px;
-	}
-}
-
-@media (max-width: 1000px) {
-	.circle {
-		width: 90px; 
-	}
 }
