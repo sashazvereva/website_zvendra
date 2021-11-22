@@ -1,16 +1,15 @@
 .works_item {
     border-top: 2px solid #CB75FF;
-    border-bottom: 2px solid #CB75FF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 20px 10px 10px;
     cursor: pointer;
     height: 120px;
 }
 
 .works_item:hover {
-	background-color: #02081a;
+	background-color: #ca75ff49;
     transition: 0.2s;
 }
 
@@ -42,3 +41,105 @@
     height: 50px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+details{
+    background: #02081a ;
+    border-bottom: 2px solid #CB75FF;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::-moz-list-bullet {
+    list-style-type: none;
+}
+
+summary::marker { 
+    display: none;
+} 
+
+summary {
+    display: block;
+    font-size: 1.4em;
+    cursor: pointer;
+    position: relative;
+}
+
+summary:before {  
+    top: 50%;
+    right: 0;
+    color: transparent;
+    background: url("photo/icons/down.png") no-repeat 50% 50% / 1em 1em;
+    width: 25px;
+    height: 25px;  
+    content: "";
+    position: absolute;
+    transition: transform .5s;
+}
+
+details[open] > summary:before {
+    transform: scale(1,-1);
+}
+summary ~ * {
+    padding: 0 40px 20px 20px;
+}
+
+details[open] summary ~ *{ 
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    0%    {
+        opacity: 0;
+    }
+
+    100%  {
+        opacity: 1;
+    }
+}
+
+.works_text {
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.works_item2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works_img {
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

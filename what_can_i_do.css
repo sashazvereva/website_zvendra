@@ -60,6 +60,7 @@
 	font-size: calc(12px + 6 * (100vw / 1280));
 	/*font-size: 18px;*/
 	font-weight: 700;
+	text-align: left;
 }
 
 .circle {
