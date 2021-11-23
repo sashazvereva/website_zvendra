@@ -19,7 +19,7 @@
     display: flex;
 	justify-content: space-between;
 	align-items: center;
-    height: 70px;
+    height: 100px;
 }
 
 .header_logo { 
@@ -79,6 +79,7 @@
     margin: 0 0 0 20px;
     list-style-type: none;
 	right: 100px;
+	flex-wrap: wrap;
 }
 
 .menu_link {
@@ -135,7 +136,7 @@
 	right: 0;
 	left: 0px;
 	padding: 15px;
-	width: 210px;
+	width: 450px;
 	background-color: #010511;
     list-style-type: none;
     border-radius: 30px;

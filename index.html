@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="intro.css">
 	<link rel="stylesheet" type="text/css" href="about_me.css">
 	<link rel="stylesheet" type="text/css" href="what_can_i_do.css">
+	<link rel="stylesheet" type="text/css" href="working_process.css">
 	<link rel="stylesheet" type="text/css" href="technology_stack.css">
 	<link rel="stylesheet" type="text/css" href="works.css">
 	<link rel="stylesheet" type="text/css" href="achievements.css">
@@ -16,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="slider.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link rel="stylesheet" type="text/css" href="adaptive.css"> 
+	<link rel="stylesheet" type="text/css" href="adaptive2.css"> 
 
 
 	<link rel="shortcut icon" href="favicon.ico">
@@ -58,6 +60,11 @@
 							<li>
 								<a class="menu_sub_link" data-goto=".what_can_i_do">Что я могу сделать</a>
 							</li>
+
+							<li>
+								<a class="menu_sub_link" data-goto=".working_process">Как будет происходить процесс работы?</a>
+							</li>
+							
 							<li>
 								<a class="menu_sub_link" data-goto=".technology_stack">Стэк технологий</a>
 							</li>
@@ -217,8 +224,54 @@
 <!--  WHAT CAN I DO END / КОНЕЦ БЛОКА "ЧТО Я МОГУ СДЕЛАТЬ" -->
 
 
+<!-- WORKING PROCESS START / НАЧАЛО БЛОКА "ПРОЦЕСС РАБОТЫ" -->
+<div class="block working_process">
+	<div class="container">
+		<h1 class="title title_wrap">
+			Как будет происходить процесс работы?
+		</h1>
+		<div class="working_process_inner">
+			<div class="working_process_item">
+				<div class="working_process_title">Знакомство и бриф</div>
+				<div class="working_process_text">
+					После знакомства и обсуждения всех интересующих
+					вопросов я присылаю бриф, где будут зафиксированны
+					все ваши пожелания по проекту. После анализа брифа
+					я сообщу о сроках реализации и стоимости сайта
+				</div>
+				<div class="working_process_number">1</div>
+			</div>
+
+			<div class="working_process_item">
+				<div class="working_process_title">Прототип и дизайн</div>
+				<div class="working_process_text">
+					 Создаю текстовую структуру, затем 
+					 после утверджения графический прототип.
+					 Согласовав его с вами, создаю две визуальных концепции
+					 главного экрана. После утверждения одной из них них, 
+					 начинаю дизайн всего сайта
+					 
+				</div>
+				<div class="working_process_number">2</div>
+			</div>
+
+			<div class="working_process_item" style="border-right: none; border-bottom: none;">
+				<div class="working_process_title">Вёрстка и публикация</div>
+				<div class="working_process_text">
+					После утверждения дизайна я приступаю к адаптивной вёрстке -
+					вёрстка для всех расширений экрана. Перед публикацией я тестирую работу
+					и презентую полностью рабочий сайт
+				</div>
+				<div class="working_process_number">3</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  WORKING PROCESS END / КОНЕЦ БЛОКА "ПРОЦЕСС РАБОТЫ" -->
+
+
 <!-- TECHNOLOGY STACK START / НАЧАЛО БЛОКА "СТЭК ТЕХНОЛОГИЙ" -->
-<div class="block technology_stack filter">
+<div class="block technology_stack">
 	<div class="container">
 		<h1 class="title">
 			Стэк технологий
@@ -258,55 +311,29 @@
 		</h1>
 
 		<h3 class="subtitle">
-			Для перехода на сайт нажмте на стрелку
+			Для перехода на сайт в описании нажмите на кнопку «Посмотреть сайт»
 		</h3>
-<!--
-		<div class="works_list">
-			<div class="works_item" style="margin-top: 25px;">
-				<div class="works_item_title">Аэрокосмический<br>хакатон</div>
-				<div class="works_item_description">
-					Многостраниный сайт для аэрокосмического хакатона
-				</div>
-				<a href="http://aerospacehackathonzvereva.tilda.ws" target="_blank">
-					<img src="photo/icons/right.png" >
-				</a>
-			</div>
-		</div>
-
-
-		<div class="works_item" style="border-top: none;">
-			<div class="works_item_title">Ai-vacancy.ru</div>
-			<div class="works_item_description">
-				Лендинг для презентации решения команды «Безпроигрышный вариант»
-				в конкурсе AIIJC
-			</div>
-			<a href="https://ai-vacancy.ru" target="_blank">
-				<img src="photo/icons/right.png" >
-			</a>
-		</div>
--->
 
 		<details>
 			<summary>
 				<div class="works_item" style="margin-top: 25px;">
 					<div class="works_item_title">Аэрокосмический<br>хакатон</div>
 					<div class="works_item_description">
-						Многостраниный сайт для аэрокосмического хакатона
+						Многостраничный сайт для аэрокосмического хакатона
 					</div>
 				</div>
 			</summary>
 			<div class="works_item2">
 				<img class="works_img" src="photo/aerohack.png">
 				<div class="works_text">
-					<p>
-						Для начала составила бриф по проекту, 
-						после этого грамотно составила текст и
-						графический прототип, согласовалась с командой и
-						разработала 3 варианта дизайна сайта, 
-						далее приступила к вёрстке, используя фиксированную вёрстку
+					<p class="works_text_item">
+						<span>Время работы:</span> 3 недели<br><br>
+						<span>Инструменты:</span> Tilda, Figma, Moqups<br><br>
+						<span>Цель сайта:</span> информация о Аэрокосмическом Хакатоне для команд школьников, 
+						интересующихся авиацией и космонавтикой<br>
 					</p>
-					<a class="bubbly-button js-anchor" href="http://aerospacehackathonzvereva.tilda.ws" style="margin-left: 0;">  
-						Посмотреть сайт
+					<a class="works_button js-anchor" href="http://aerospacehackathonzvereva.tilda.ws" style="margin-left: 0;">  
+						Посмотреть сайт<span class="flare"></span>
 					</a>
 				</div>
 
@@ -316,7 +343,7 @@
 		<details>
 			<summary>
 				<div class="works_item" style="border-top: none;">
-					<div class="works_item_title">Ai-vacancy.ru</div>
+					<div class="works_item_title">Ai-vacancy</div>
 					<div class="works_item_description">
 						Лендинг для презентации решения команды «Безпроигрышный вариант»
 						в конкурсе AIIJC
@@ -326,15 +353,14 @@
 			<div class="works_item2">
 				<img class="works_img" src="photo/ai_vacancy.png">
 				<div class="works_text">
-					<p>
-						Для начала составила бриф по проекту, 
-						после этого грамотно составила текст и
-						графический прототип, согласовалась с командой и
-						разработала 3 варианта дизайна сайта, 
-						далее приступила к вёрстке, используя фиксированную вёрстку
+					<p class="works_text_item">
+						<span>Время работы:</span> 2 месяца<br><br>
+						<span>Инструменты:</span> Figma, HTML, CSS, JS<br><br>
+						<span>Цель сайта:</span> Представление решения для конкурса AIIJC
+						команды «Безпроигрышный вариант» трека «Подбор персонала»<br>
 					</p>
-					<a class="bubbly-button js-anchor" href="https://ai-vacancy.ru" style="margin-left: 0;">  
-						Посмотреть сайт
+					<a class="works_button js-anchor" href="https://ai-vacancy.ru" style="margin-left: 0;">  
+						Посмотреть сайт<span class="flare"></span>
 					</a>
 				</div>
 			</div>
@@ -343,8 +369,6 @@
 	</div>
 </div>
 <!-- WORKS END / КОНЕЦ БЛОКА "РАБОТЫ" -->
-
-
 
 
 <!-- ACHIEVEMENTS START / НАЧАЛО ДОСТИЖЕНИЙ -->

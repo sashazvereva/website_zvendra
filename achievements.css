@@ -37,5 +37,4 @@
 	font-size: calc(12px + 6 * (100vw / 1280));
 	/*font-size: 18px;*/
 	filter: drop-shadow(0 0px 70px #ca75ff75);
-
 }
