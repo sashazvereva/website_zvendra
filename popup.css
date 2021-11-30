@@ -1,4 +1,4 @@
-/* Popup autorization*/
+/* POPUP START / НАЧАЛО МОДАЛЬНОГО ОКНА */
 .popup {
     position: fixed;
     height: 100%;
@@ -20,7 +20,6 @@
     min-width: 0;
     align-items: center;
     display: flex;
-
 }
 
 .popup:target {
@@ -48,7 +47,6 @@
     padding: 0px 10px;
     transition: all 0.8s ease 0s;
     min-width: 0;
-
 }
 
 /*transform: perspective(600px) translate(0px,-100%), rotateX(45deg);*/
@@ -97,3 +95,4 @@
     opacity: 0.9;
     visibility: visible;
 }
+/* POPUP END / КОНЕЦ МОДАЛЬНОГО ОКНА */

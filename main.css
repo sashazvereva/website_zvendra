@@ -1,4 +1,4 @@
-/* Universal styles / Универсальные стили */
+/* UNIVERSAL STYLES / УНИВЕРСАЛЬНЫЕ СТИЛИ */
 body {  
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -81,4 +81,3 @@ body::-webkit-scrollbar-thumb {
 	background-size: contain;
 	border-radius: 30px;
 }
-

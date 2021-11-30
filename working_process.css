@@ -1,3 +1,4 @@
+/* WORKING PROCESS START / НАЧАЛО БЛОКА "ПРОЦЕСС РАБОТЫ" */
 .working_process_inner {
 	margin-top: 25px;
     display: inline-flex;
@@ -47,3 +48,4 @@
     align-items: flex-end;
     padding: 0 10px;
 }
+/* WORKING PROCESS END / КОНЕЦ БЛОКА "ПРОЦЕСС РАБОТЫ" */

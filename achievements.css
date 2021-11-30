@@ -1,3 +1,4 @@
+/* ACHIEVEMENTS START / НАЧАЛО ДОСТИЖЕНИЙ */
 .achievements_inner {
     display: flex;
     justify-content: center;
@@ -22,7 +23,7 @@
     transition: 1s;
     text-align: center;
     text-shadow: 5px #ca75ff75;
-
+    margin: auto;
 }
 
 .achievements_item:hover {
@@ -38,3 +39,4 @@
 	/*font-size: 18px;*/
 	filter: drop-shadow(0 0px 70px #ca75ff75);
 }
+/* ACHIEVEMENTS END / КОНЕЦ ДОСТИЖЕНИЙ */

@@ -1,3 +1,4 @@
+/* TECHNOLOGY STACK START / НАЧАЛО БЛОКА "СТЭК ТЕХНОЛОГИЙ" */
 .technology_stack_item {
     display: flex;
     justify-content: center;
@@ -6,7 +7,6 @@
     /*padding: 100px 0 10px 0;*/
     margin: 75px 0 50px 300px;
 	filter: drop-shadow(0 40px 140px #ca75ff49);
-
 }
 
 .technology_stack_block img {
@@ -35,7 +35,6 @@
     text-align: center;
 }
 
-
 .technology_stack_text1 {
     bottom: 100px;
     right: 420px;
@@ -60,3 +59,4 @@
     bottom: -100px;
     right: 420px;
 }
+/* TECHNOLOGY STACK END / КОНЕЦ БЛОКА "СТЭК ТЕХНОЛОГИЙ" */

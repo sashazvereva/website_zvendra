@@ -1,3 +1,4 @@
+/* HEADER START / НАЧАЛО НАВИГАЦИОННОГО МЕНЮ */
 .header {
 	padding: 5px 0;
 	position: fixed;
@@ -69,9 +70,6 @@
 	-webkit-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
-}
-
-.menu_body {
 }
 
 .menu_list > li {
@@ -175,7 +173,6 @@
 	display: none;
 }
 
-
 /*                    */
 
 body._pc .menu_list > li:hover  .menu_sub_list {
@@ -188,12 +185,6 @@ body._pc .menu_list > li:hover  .menu_sub_list {
 body._touch .menu_list > li {
 	display: flex;
 	align-items: center;
-}
-
-body._touch .menu_link {
-	/*
-	flex: 1 1 auto;
-	*/
 }
 
 body._touch .menu_arrow {
@@ -218,3 +209,4 @@ body._touch .menu_list > li._active .menu_sub_list {
 body._touch .menu_list > li._active .menu_arrow {
 	transform: rotate(-180deg);
 }
+/* HEADER END / КОНЕЦ НАВИГАЦИОННОГО МЕНЮ */

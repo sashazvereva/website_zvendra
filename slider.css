@@ -49,11 +49,13 @@
 .slider .slick-arrow.slick-prev {
 	left: 0;
 	background: url('../photo/icons/left.png') 0 0 / 100% no-repeat;
+	z-index: 99;
 }
 
 .slider .slick-arrow.slick-next {
 	right: 0;
 	background: url('../photo/icons/right.png') 0 0 / 100% no-repeat;
+	z-index: 99;
 }
 
 /* Точки (булиты) */

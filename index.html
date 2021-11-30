@@ -14,11 +14,10 @@
 	<link rel="stylesheet" type="text/css" href="works.css">
 	<link rel="stylesheet" type="text/css" href="achievements.css">
 	<link rel="stylesheet" type="text/css" href="popup.css">
+	<link rel="stylesheet" type="text/css" href="popup2.css">
 	<link rel="stylesheet" type="text/css" href="slider.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link rel="stylesheet" type="text/css" href="adaptive.css"> 
-	<link rel="stylesheet" type="text/css" href="adaptive2.css"> 
-
 
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -39,58 +38,62 @@
 <div class="wrapper2">
 <header class="header">
 	<div class="header_container">
+		<a class="header_logo" href="index.html">
+			<img class="two" src="photo/icons/moon.png">
+			<img class="one" src="photo/icons/moon2.png">
+			<div>zvendra</div>
+		</a>
+		<div class="header_menu menu">
+			<div class="menu_icon">
+				<span></span>
+			</div>
 
-			<a class="header_logo" href="index.html">
-				<img class="two" src="photo/icons/moon.png">
-				<img class="one" src="photo/icons/moon2.png">
-				<div>zvendra</div>
-			</a>
-			<div class="header_menu menu">
-				<div class="menu_icon">
-					<span></span>
-				</div>
+		<nav class="menu_body">
+			<ul class="menu_list">
+				<li>
+					<a class="menu_link" data-goto=".about_me">Обо мне</a>
+					<span class="menu_arrow"></span>
 
-			<nav class="menu_body">
-				<ul class="menu_list">
-					<li>
-						<a class="menu_link" data-goto=".about_me">Обо мне</a>
-						<span class="menu_arrow"></span>
+					<ul class="menu_sub_list">
+						<li>
+							<a class="menu_sub_link" data-goto=".what_can_i_do">Что я могу сделать</a>
+						</li>
 
-						<ul class="menu_sub_list">
-							<li>
-								<a class="menu_sub_link" data-goto=".what_can_i_do">Что я могу сделать</a>
-							</li>
+						<li>
+							<a class="menu_sub_link" data-goto=".working_process">Как будет происходить процесс работы?</a>
+						</li>
+						
+						<li>
+							<a class="menu_sub_link" data-goto=".technology_stack">Стэк технологий</a>
+						</li>
+					</ul>
+				</li>	
+				
 
-							<li>
-								<a class="menu_sub_link" data-goto=".working_process">Как будет происходить процесс работы?</a>
-							</li>
-							
-							<li>
-								<a class="menu_sub_link" data-goto=".technology_stack">Стэк технологий</a>
-							</li>
-						</ul>
-					</li>	
-					
+				<li>
+					<a class="menu_link" data-goto=".works">Работы</a>
+				</li>
 
-					<li>
-						<a class="menu_link" data-goto=".works">Работы</a>
-					</li>
+				<li>
+					<a class="menu_link" data-goto=".achievements">Достижения</a>
+					<span class="menu_arrow"></span>
 
-					<li>
-						<a class="menu_link" data-goto=".achievements">Достижения</a>
-					</li>
+					<ul class="menu_sub_list" style="width: 250px;">
+						<li>
+							<a class="menu_sub_link" data-goto=".courses">Пройденные курсы</a>
+						</li>
+					</ul>
+				</li>	
 
-					<li>
-						<a class="menu_link" data-goto=".footer">Контакты</a>
-					</li>
+				<li>
+					<a class="menu_link" data-goto=".footer">Контакты</a>
+				</li>
 
-					<a class="bubbly-button js-anchor" href="Resume.pdf" target="_blank">  
-						Резюме
-					</a>
-				</ul>
-			</nav>
-		</div>
-
+				<a class="bubbly-button js-anchor" href="Resume.pdf" target="_blank">  
+					Резюме
+				</a>
+			</ul>
+		</nav>
 	</div>
 </header>
 </div>
@@ -133,7 +136,6 @@
 		<div class="circle"></div>
 		<div class="circle"></div>
 	</div>
-
 </div>
 <!-- INTRO END / КОНЕЦ ИНТРО -->
 
@@ -147,7 +149,7 @@
 		
 		<div class="about_me_inner">
 			<div class="photo">
-				<img src="photo/photo2.JPG" >
+				<img src="photo/photo.JPG" >
 			</div>
 			<div class="about_me_text">
 				<div>
@@ -217,7 +219,6 @@
 				Также беру заказы на корпоративные сайты с учётом фирменного стиля компании
 			</h3>
 		</div>
-
 	</div>
 	</div>
 </div>
@@ -285,7 +286,7 @@
 					<div>HTML/CSS/JS</div>
 				</div>
 				<div class="technology_stack_text2">
-					<div>Git</div>
+					<div>GitHub</div>
 				</div>				
 				<div class="technology_stack_text3">
 					<div>JQuery</div>
@@ -365,7 +366,6 @@
 				</div>
 			</div>
 		</details>
-
 	</div>
 </div>
 <!-- WORKS END / КОНЕЦ БЛОКА "РАБОТЫ" -->
@@ -385,8 +385,8 @@
 		<div class="achievements_inner">
 			<div class="achievements_item">
 				<a href="#profile">
-					<img src="photo/Сертификат_Курс.jpg">
-					<p>Курс по созданию<br>сайтов на Tilda</p>
+					<img src="photo/T1_Digital_Challenge.jpg">
+					<p>Финалист хакаона<br>T1 Digital Challenge<br>по треку CX</p>
 				</a>
 			</div>
 
@@ -416,6 +416,45 @@
 <!-- ACHIEVEMENTS END / КОНЕЦ ДОСТИЖЕНИЙ -->
 
 
+<!-- COURSES START / НАЧАЛО КУРСОВ -->
+<div class="block courses">
+	<div class="container">
+		<h1 class="title">
+			Пройденные курсы
+		</h1>
+
+		<h3 class="subtitle">
+			Чтобы увидеть ближе нажмите на картинку
+		</h3>
+
+		<div class="achievements_inner">
+			<div class="achievements_item">
+				<a href="#profile2">
+					<img src="photo/Сертификат_Курс.jpg">
+					<p>Курс по созданию<br>сайтов на Tilda</p>
+				</a>
+			</div>
+
+
+			<div class="achievements_item">
+				<a href="#profile2">
+					<img src="photo/Kvantorium.jpg">
+					<p>Сертификат<br>по направлению<br>«IT-Квантум»</p>
+				</a>
+			</div>
+
+			<div class="achievements_item">
+				<a href="#profile2">
+					<img src="photo/SHP.JPG">
+					<p>Свидетельство<br>об окончании<br>«Школы Программистов»</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- COURSES END / КОНЕЦ КУРСОВ -->
+
+
 <!-- POPUP START / НАЧАЛО МОДАЛЬНОГО ОКНА -->
 <div id="profile" class="popup">
     <a href="#main" class="popup_area"></a>
@@ -428,7 +467,7 @@
 			<div class="wrapper">
 				<div class="slider">
 					<div class="slider_item">
-						<img src="photo/Сертификат_Курс.jpg"> 
+						<img src="photo/T1_Digital_Challenge.jpg"> 
 					</div>
 
 					<div class="slider_item" >
@@ -436,7 +475,6 @@
 							<img class="CDEK" src="photo/AIIJC.jpg"> 
 						</div>
 					</div>
-			
 			
 					<div class="slider_item" >
 						<div>
@@ -446,6 +484,38 @@
 			
 					<div class="slider_item">
 						<img src="photo/Зверева Александра Романовна.jpg"> 
+					</div>
+				</div>
+			</div>
+
+        </div>
+    </div>
+</div>
+
+<div id="profile2" class="popup2">
+    <a href="#main" class="popup2_area"></a>
+    <div class="popup2_body">
+        <div class="popup2_content">
+            <a href="#main" class= "popup2_close">
+                <img src="photo/icons/remove.png"> 
+            </a>
+
+			<div class="wrapper">
+				<div class="slider">
+					<div class="slider_item">
+						<img src="photo/Сертификат_Курс.jpg"> 
+					</div>
+
+					<div class="slider_item" >
+						<div>
+							<img class="CDEK" src="photo/Kvantorium.jpg"> 
+						</div>
+					</div>
+			
+					<div class="slider_item" >
+						<div>
+							<img style="width: 400px;" src="photo/SHP.JPG"> 
+						</div>
 					</div>
 				</div>
 			</div>
@@ -470,17 +540,17 @@
 			<div class="footer_contacts">
 				<div class="flex">
 					<nav class="footer_contacts_inner">
-						<img src="photo/icons/mail.svg" >
+						<img src="photo/icons/mail.svg">
 						<a href="mailto:sasazvereva15@gmail.com">sasazvereva15@gmail.com</a>
 					</nav>
 		
 					<nav class="footer_contacts_inner">
-						<img src="photo/icons/telegram.svg" >
+						<img src="photo/icons/telegram.svg">
 						<a href="https://t.me/zvendra">@zvendra</a>
 					</nav>
 		
 					<nav class="footer_contacts_inner">
-						<img src="photo/icons/instagram.svg" >
+						<img src="photo/icons/instagram.svg">
 						<a href="https://www.instagram.com/zvendraa/">@zvendraa</a>
 					</nav>
 				</div>
@@ -490,6 +560,7 @@
 	</div>
 </footer>
 <!-- FOOTER END / КОНЕЦ ПОДВАЛА -->
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="slick.min.js"></script>
 <script src="script.js"></script>
